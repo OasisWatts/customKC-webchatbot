@@ -7,9 +7,9 @@ export default function Header() {
       <div className="my-auto ml-5">
         <PiazzaLogo height="35" gotoHome />
       </div>
-      <div className="my-auto mr-5">
+      {/* <div className="my-auto mr-5">
         <ButtonRouteWaitlistBfLaunch1 />
-      </div>
+      </div> */}
     </div>
   )
 }
