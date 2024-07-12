@@ -41,7 +41,7 @@ export default function IntroBfLanch1() {
                         Enhance your artistic abilities with<br className="md:hidden" /> expert feedback on your creations
                     </div>
                 </div>
-                <div className="text-sm md:text-xl text-base text-gray-700 mb-[3rem] md:mb-[5rem]" data-aos="zoom-y-out" data-aos-delay="300">Coming Soon</div>
+                <div className="text-sm md:text-xl text-base text-gray-700 mb-[3rem] md:mb-[5rem]" data-aos="zoom-y-out" data-aos-delay="300">Art Critique Platform is Coming Soon</div>
                 <div data-aos="zoom-y-out" data-aos-delay="600">
                     <ButtonRouteWaitlistBfLaunch1 />
                 </div>
