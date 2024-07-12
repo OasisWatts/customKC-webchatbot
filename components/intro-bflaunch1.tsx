@@ -33,18 +33,15 @@ export default function IntroBfLanch1() {
         <section className="relative mt-[5rem] sm:mt-[7rem] ">
             {/* Intro content */}
             <div className="mx-auto max-w-6xl flex flex-col items-center align-center text-center px-5 md:px-10">
-                <div className="">
-                    <h1 className="max-sm:text-2xl md:text-6xl max-md:text-4xl font-extrabold leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-black" data-aos="zoom-y-out">
-                        A New Kind of Mobile Browser
+                <div className="md:mb-[3rem] max-md:mt-[5rem]">
+                    <h1 className="max-sm:text-2xl md:text-6xl max-md:text-4xl font-extrabold leading-tighter tracking-tighter mb-[3rem] text-black" data-aos="zoom-y-out">
+                        Showcase Your Talent,<br className="" /> Get Professional Critiques
                     </h1>
                     <div className="max-sm:text-lg md:text-3xl max-md:text-2xl text-gray-700 font-bold mb-[2rem] md:mb-[4rem]" data-aos="zoom-y-out">
-                        Organize your search, <br className="md:hidden" /> Share your thoughts
+                        Enhance your artistic abilities with<br className="md:hidden" /> expert feedback on your creations
                     </div>
                 </div>
-                <div className="text-sm md:text-xl text-base text-gray-700 mb-[0.2rem]" data-aos="zoom-y-out" data-aos-delay="300">Coming Soon in August</div>
-                <div className="text-sm md:text-xl text-gray-700 mb-[1rem] md:mb-[2rem]" data-aos="zoom-y-out" data-aos-delay="300">
-                    <p className="inline text-brown font-black">{emptyNum}</p> spots left for the first <p className="inline text-darkviolet font-black">{totalNum}</p> users
-                </div>
+                <div className="text-sm md:text-xl text-base text-gray-700 mb-[3rem] md:mb-[5rem]" data-aos="zoom-y-out" data-aos-delay="300">Coming Soon</div>
                 <div data-aos="zoom-y-out" data-aos-delay="600">
                     <ButtonRouteWaitlistBfLaunch1 />
                 </div>
