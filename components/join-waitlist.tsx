@@ -34,7 +34,7 @@ export default function JoinWaitlist() {
             if (checkPrivacyPolicy && checkReceiveEmail) { // request
                 setToggleAlertAgreement(false)
                 axios.get(PIAZZA_DOMAIN + "/api/waitlist?e=" + emailtext).then((res) => {
-                    window.location.href = "/toDiscord"
+                    window.location.href = "/"
                 })
             } else {
                 setToggleAlertAgreement(true)
