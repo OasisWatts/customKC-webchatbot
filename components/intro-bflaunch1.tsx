@@ -37,13 +37,18 @@ export default function IntroBfLanch1() {
                 <div className="mx-auto max-w-6xl flex flex-col items-center align-center text-center px-5 md:px-10">
                     <div className="md:mb-[3rem] max-md:mt-[5rem]">
                         <h1 className="max-sm:text-2xl md:text-6xl max-md:text-4xl font-extrabold leading-tighter tracking-tighter mb-[3rem] text-black" data-aos="zoom-y-out">
-                            Showcase Your Talent,<br className="" /> Get Professional Critiques
+                            If you upload your <p className="text-darkpink inline"> drawing,</p><br />
+                            a <p className="text-darkviolet inline">certified expert </p>will provide feedback.
                         </h1>
+                        <div className="max-sm:text-lg md:text-2xl max-md:text-xl text-gray-700 font-semibold mb-[1rem] md:mb-[2rem]" data-aos="zoom-y-out">
+                            Need some high quality feedback?
+                        </div>
                         <div className="max-sm:text-lg md:text-3xl max-md:text-2xl text-gray-700 font-bold mb-[2rem] md:mb-[4rem]" data-aos="zoom-y-out">
                             Enhance your artistic abilities with<br className="md:hidden" /> expert feedback on your creations
                         </div>
                     </div>
-                    <div className="text-sm md:text-xl text-base text-gray-700 mb-[3rem] md:mb-[5rem]" data-aos="zoom-y-out" data-aos-delay="300">The Art Critique Platform for Everyone is Coming Soon</div>
+                    <div className="text-sm md:text-xl text-base text-gray-700 mb-[1rem] md:mb-[2rem]" data-aos="zoom-y-out" data-aos-delay="300">A reliable platform for art critique is coming soon.</div>
+                    <div className="text-sm md:text-xl text-base text-gray-700 mb-[2rem] md:mb-[4rem]" data-aos="zoom-y-out" data-aos-delay="300">Free trial of the simplified service available upon waitlist registration.</div>
                 </div>
             </section >
             <JoinWaitlist />
