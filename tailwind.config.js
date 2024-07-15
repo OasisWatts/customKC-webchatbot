@@ -11,7 +11,7 @@ module.exports = {
         violet: '#D8B7F7', //rgb(216, 183, 247)
         pink: '#FAC0D8',//rgb(250, 192, 216)
         brown: '#E38F69',//rgb(227, 143, 105)
-        darkviolet: '#cb9ff5',
+        darkviolet: '#6832a8',
         darkpink: '#f38eb8',
         lightviolet: '#E7CDFF',
         lightpink: '#FFD5E6',

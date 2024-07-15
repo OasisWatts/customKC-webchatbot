@@ -45,19 +45,19 @@ export default function JoinWaitlist() {
     }
     return (
         <section className="relative">
-            <div className="pt-5 pb-40 mx-5 md:mx-auto max-w-2xl" data-aos="zoom-y-out">
-                <div className="w-full mb-5">
+            <div className="pb-40 mx-5 md:mx-auto max-w-2xl" data-aos="zoom-y-out">
+                <div className="w-full mb-3">
                     <label htmlFor="email" />
                     <input id="email" type="email" value={emailtext} onChange={handleOnChangeEmail} className="form-input rounded-lg w-full text-gray-800" placeholder="Enter your email address" required />
                 </div>
                 <div className="mb-2">
-                    <div className="inline mr-3 text-gray-700 md:text-base text-sm">
+                    <div className="inline mr-3 text-white md:text-base text-sm">
                         I'd like to reveive emails from Piazza.
                     </div>
                     <Checkbox checkboxId="1" checkValue={checkReceiveEmail} handleCheck={handleCheckReceiveEmail} />
                 </div>
                 <div className="mb-2">
-                    <div className="inline mr-3 text-gray-700 md:text-base text-sm">
+                    <div className="inline mr-3 text-white md:text-base text-sm">
                         I consent to Piazza processing my personal data in accordance with our <a href="/privacyPolicy" className="text-brown font-bold">Privacy Policy.</a>
                     </div>
                     <Checkbox checkboxId="2" checkValue={checkPrivacyPolicy} handleCheck={handleCheckPrivacyPolicy} />

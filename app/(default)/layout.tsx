@@ -24,12 +24,12 @@ export default function DefaultLayout({
   })
 
   return (
-    <>
+    <div className='bg-darkviolet'>
       <Header />
       <main className="grow">
         {children}
       </main>
       {/* <Footer /> */}
-    </>
+    </div>
   )
 }
