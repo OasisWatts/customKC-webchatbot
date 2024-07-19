@@ -13,7 +13,8 @@ export default function Chatbot() {
         try {
             const res = await axios.post("https://api.openai.com/v1/chat/completions", {
                 prompt: message,
-                max_tokens: 150
+                max_tokens: 150,
+                model: "gpt-4o-mini"
             }, {
                 headers: {
                     'Authorization': `Bearer ${process.env.NEXT_PUBLIC_OPENAI_KEY}`,
