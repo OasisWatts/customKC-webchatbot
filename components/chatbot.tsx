@@ -16,11 +16,10 @@ export default function Chatbot() {
                 max_tokens: 150
             }, {
                 headers: {
-                    'Authorization': `Bearer ${process.env.OPENAI_KEY}`,
+                    'Authorization': `Bearer ${process.env.NEXT_PUBLIC_OPENAI_KEY}`,
                     'Content-Type': 'application/json'
                 }
             });
-            console.log("res", res)
             setResponse(res.data.choices[0].text.trim());
         } catch (error) {
             console.error(error);
