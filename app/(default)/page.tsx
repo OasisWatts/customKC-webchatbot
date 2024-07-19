@@ -4,14 +4,11 @@ import TwitterCardImag from '@/public/images/twitter-card-image.png'
 export const metadata = {
   title: 'Piazza - Welcome to Piazza!',
   description: 'Write & Share Anything within Webpages on Piazza',
-  metadataBase: new URL(PIAZZA_DOMAIN)
+  metadataBase: new URL("https://piazza.run")
 }
 
-import { PIAZZA_DOMAIN } from '@/components/env'
 import IntroBfLanch1 from '@/components/intro-bflaunch1'
-import Wow1 from '@/components/wow1'
-import Users1 from '@/components/users1'
-import CloseBfLaunch1 from '@/components/close-bflaunch1'
+import Chatbot from '@/components/chatbot'
 
 // const radialGradient = {
 //   width: "100vw",
@@ -21,7 +18,7 @@ import CloseBfLaunch1 from '@/components/close-bflaunch1'
 export default function Home() {
   return (
     <>
-      <IntroBfLanch1 />
+      <Chatbot />
     </>
   )
 }
