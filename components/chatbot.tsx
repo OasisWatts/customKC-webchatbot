@@ -12,7 +12,7 @@ export default function Chatbot() {
     const sendMessage = async () => {
         try {
             const res = await axios.post("https://api.openai.com/v1/chat/completions", {
-                prompt: message,
+                messages: message,
                 max_tokens: 150,
                 model: "gpt-4o-mini"
             }, {
