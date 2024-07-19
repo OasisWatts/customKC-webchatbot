@@ -7,7 +7,6 @@ export const metadata = {
   metadataBase: new URL("https://piazza.run")
 }
 
-import IntroBfLanch1 from '@/components/intro-bflaunch1'
 import Chatbot from '@/components/chatbot'
 
 // const radialGradient = {
