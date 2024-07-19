@@ -18,4 +18,4 @@
 ## 노트2
 - piazzabrowser.com은 CNAME record로 piazza.run을 가지고 있다.
 - nginx에서 piazza.run을 piazzabrowser.com으로 redirect한다.
-- 각각 ssl certification이 있다.
+- 각각 ssl certification이 있다.# customKC-webchatbot
